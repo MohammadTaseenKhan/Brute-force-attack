@@ -1,3 +1,4 @@
+<html>
 
 <head>
   <meta http-equiv="refresh" content="60">
@@ -21,6 +22,42 @@
 </form>
 <div class="result"></div>
 <div class="time"></div>
+
+<style>
+  body {
+
+  margin: 30px;
+
+  font-family: monospace;
+
+  text-align: center;
+
+  background: #111;
+
+  color: #0cf6be;
+
+}
+
+.result {
+
+  font-size: 3em;
+
+}
+
+form {
+
+  margin: 30px;
+
+}
+
+.input {
+
+  -webkit-appearance: none;
+
+}
+
+</style>
+
 <script>
 <script type="text/javascript" charset="utf-8">
 const alphabet = ` abcdefghijklmnopqrstuvwyxz0123456789!?@#$%^*()_+"':;{}[]|\~/,.`
@@ -88,3 +125,5 @@ function sleep(duration) {
 
 start($input.value.toLowerCase(), alphabet)
 </script>
+
+</html>
